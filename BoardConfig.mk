@@ -79,6 +79,9 @@ TARGET_SURFACEFLINGER_UDFPS_LIB := //$(DEVICE_PATH):libudfps_extension.raphael
 TARGET_USES_FOD_ZPOS := true
 
 # HIDL
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
+    $(DEVICE_PATH)/vintf/xiaomi_framework_compatibility_matrix.xml
+
 DEVICE_FRAMEWORK_MANIFEST_FILE := \
     $(DEVICE_PATH)/vintf/framework_manifest.xml
 
